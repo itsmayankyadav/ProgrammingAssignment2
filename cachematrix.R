@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
   getInverse  <- function() cachedInv
   list(set=set, get=get, setInverse=setInverse, getInverse=getInverse)
 }
-
+ 
 
 ## given the list variable from the first function, will first check to see if there's already a cached inverse and return
 ## otherwise will attempt to solve its inverse and set/return it
